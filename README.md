@@ -1,46 +1,79 @@
-# E-Commerce Marketplace
+# Afrishop - E-Commerce Platform
 
-## Project Overview
-This project is an e-commerce marketplace designed to facilitate transactions between buyers and sellers. The platform allows users to browse products, place orders, and manage their accounts.
+A comprehensive single-vendor e-commerce platform built with Vue.js (Frontend), Python Django (Backend), and PostgreSQL (Database).
 
-## Features
-- **User Authentication**: Users can register, log in, and manage their profiles.
-- **Product Listings**: Sellers can list their products with descriptions, images, and prices.
-- **Shopping Cart**: Users can add products to their shopping cart for easy checkout.
-- **Order Management**: Buyers can track their orders, and sellers can manage their sales.
-- **Payment Processing**: Integration with payment gateways for secure transactions.
+## 🎯 Project Overview
 
-## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Deployment**: Heroku / AWS
+Afrishop is an enterprise-grade e-commerce solution designed for African merchants to sell products online with advanced features including:
 
-## Installation Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/joshuakpaka20-design/git_data_science.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd git_data_science
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the application:
-   ```bash
-   npm start
-   ```
+- 📦 Product Management & Inventory
+- 🛒 Shopping Cart & Checkout
+- 💳 Multiple Payment Gateway Integration
+- 📊 Analytics & Reporting
+- 👤 User Management & Authentication
+- 📝 Order Management
+- 📧 Email Notifications
+- 🔐 Security & SSL
+- 📱 Responsive Design
+- 🌍 Multi-language Support
 
-## Usage
-- Visit the homepage to browse products.
-- Use the search functionality to find specific items.
-- Add items to your cart and proceed to checkout.
+## 📁 Project Structure
 
-## Contributing
-Contributions are welcome! Please submit a Pull Request or open an issue to discuss improvements.
+```
+afrishop/
+├── frontend/              # Vue.js Frontend Application
+├── backend/               # Django REST API
+├── docs/                  # Documentation
+├── docker/                # Docker Configuration
+└── README.md
+```
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🛠 Technology Stack
+
+- **Frontend**: Vue.js 3, Vuex, Vue Router, Axios
+- **Backend**: Python 3.9+, Django 4.0+, Django REST Framework
+- **Database**: PostgreSQL 13+
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payment**: Stripe, PayPal, Flutterwave
+- **Email**: SendGrid, SMTP
+- **Hosting**: Docker, AWS/DigitalOcean
+- **Analytics**: Google Analytics, Custom Dashboard
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 16+
+- Python 3.9+
+- PostgreSQL 13+
+- Docker & Docker Compose (optional)
+
+### Installation
+
+#### Backend Setup
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+#### Frontend Setup
+```bash
+cd frontend
+npm install
+npm run serve
+```
+
+## 📚 Documentation
+
+See [docs/](./docs/) directory for detailed documentation.
+
+## 📝 License
+
+MIT License
+
+## 👤 Author
+
+Joshua K. Paka
